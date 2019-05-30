@@ -1,0 +1,94 @@
+@import 'font.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 15px 50px;
+    background-color: #f72464;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lora Regular';
+    font-size: 20px;
+    border-radius: 3px;
+}
+/* Header */
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.nav__logo {
+    font-family: 'Muli SemiBold';
+    color: #041122;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-right: 60px;
+    text-decoration: none;
+}
+.nav__item {
+    font-family: 'Muli Regular';
+    color: #52575d;
+    font-size: 15px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.header__img {
+    width: 15px;
+    height: 20px;
+    margin-right: 15px;
+}
+/* Intro */
+.intro {
+    width: 100%;
+    height: 700px;
+    background: url('../img/bg/girl.jpg') center no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.intro__inner {
+    width: 100%;
+    max-width: 700px;
+    padding-top: 240px;
+    padding-left: 15px;
+}
+.intro__title {
+    font-size: 80px;
+    font-family: 'Lora Regular';
+    color: #222222;
+}
+.intro__text {
+    font-family: 'Muli Light';
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 55px;
+}
