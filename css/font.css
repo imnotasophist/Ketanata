@@ -3,6 +3,10 @@
     src: url(../fonts/Lora-Regular.ttf);
 }
 @font-face {
+    font-family: Lora Bold;
+    src: url(../fonts/Lora-Bold.ttf);
+}
+@font-face {
     font-family: Muli Light;
     src: url(../fonts/Muli-Light.ttf);
 }
